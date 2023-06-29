@@ -1,6 +1,4 @@
-import "./App.css";
-
-function App() {
+function HeroesApp() {
   return (
     <>
       <div className="container">
@@ -10,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default HeroesApp;
