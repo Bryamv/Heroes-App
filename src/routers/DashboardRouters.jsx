@@ -8,12 +8,11 @@ export const DashboardRouters = () => {
   return (
     <>
       <Navbar />
-      <div>
+      <div className="container mt-2">
         <Routes>
           <Route path="/marvel" element={<MarvelScreen />} />
           <Route path="/hero/:heroId" element={<HeroScreen />} />
           <Route path="/dc" element={<DcScreen />} />
-
           <Route path="*" element={<MarvelScreen />} />
         </Routes>
       </div>
