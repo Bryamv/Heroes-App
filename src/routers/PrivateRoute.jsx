@@ -9,4 +9,5 @@ export const PrivateRoute = ({ children, isAuthenticated }) => {
 };
 PrivateRoute.propTypes = {
   isAuthenticated: PropTypes.bool.isRequired,
+  children: PropTypes.element.isRequired,
 };
