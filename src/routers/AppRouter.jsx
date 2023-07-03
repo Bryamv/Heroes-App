@@ -12,7 +12,7 @@ export const AppRouter = () => {
     user: { logged },
   } = useContext(AuthContext);
   return (
-    <Router basename="/Heroes-App">
+    <Router>
       <div>
         <Routes>
           <Route
