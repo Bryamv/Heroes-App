@@ -16,7 +16,7 @@ export const Navbar = () => {
       type: types.logout,
     });
 
-    navigate("/login");
+    navigate("./login");
   };
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -26,15 +26,15 @@ export const Navbar = () => {
 
       <div className="navbar-collapse">
         <div className="navbar-nav">
-          <NavLink className="nav-item nav-link" to="/marvel">
+          <NavLink className="nav-item nav-link" to="./marvel">
             Marvel
           </NavLink>
 
-          <NavLink className="nav-item nav-link" to="/dc">
+          <NavLink className="nav-item nav-link" to="./dc">
             DC
           </NavLink>
 
-          <NavLink className="nav-item nav-link" to="/search">
+          <NavLink className="nav-item nav-link" to="./search">
             Search
           </NavLink>
         </div>
