@@ -12,7 +12,9 @@ export const LoginScreen = () => {
       payload: { name: "Bryam", logged: true },
     };
     dispatch(action);
-    navigate("/");
+    localStorage.getItem("lastPath")
+      ? navigate(localStorage.getItem("lastPath"))
+      : navigate("/");
   };
   return (
     <div className="container mt-5">
